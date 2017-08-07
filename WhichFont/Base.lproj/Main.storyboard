@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3iB-kk-mFX">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainScene" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="WhichFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides/>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJp-CS-FBN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fl-Jp-NWD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pBC-HJ-0DV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ic-7u-wzS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBd-Da-EXV">
+                                                <rect key="frame" x="4" y="4" width="406" height="360"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.69803921570000005" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="bBd-Da-EXV" secondAttribute="trailing" constant="4" id="LZq-Qp-yXP"/>
+                                            <constraint firstAttribute="bottom" secondItem="bBd-Da-EXV" secondAttribute="bottom" constant="4" id="PaM-Ge-36X"/>
+                                            <constraint firstItem="bBd-Da-EXV" firstAttribute="top" secondItem="6ic-7u-wzS" secondAttribute="top" constant="4" id="sZN-3i-Rrh"/>
+                                            <constraint firstItem="bBd-Da-EXV" firstAttribute="leading" secondItem="6ic-7u-wzS" secondAttribute="leading" constant="4" id="zFm-XM-4HJ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTm-lI-PgB">
+                                        <rect key="frame" x="0.0" y="368" width="414" height="368"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzw-qG-Jt6">
+                                                <rect key="frame" x="4" y="4" width="406" height="271"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gL-mb-AFN">
+                                                <rect key="frame" x="4" y="4" width="406" height="271"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="W">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name="AmericanTypewriter"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="h">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="i">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="c">
+                                                        <attributes>
+                                                            <font key="NSFont" size="41" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="h">
+                                                        <attributes>
+                                                            <font key="NSFont" size="32" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="F">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="o">
+                                                        <attributes>
+                                                            <font key="NSFont" size="27" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="n">
+                                                        <attributes>
+                                                            <font key="NSFont" size="31" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="t">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Text Detection">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="n4f-Yc-0kk">
+                                                <rect key="frame" x="4" y="279" width="255" height="85"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ahI-wJ-Em3">
+                                                    <size key="itemSize" width="85" height="85"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FontCell" id="VMO-ak-iEv" customClass="FontCell" customModule="WhichFont" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Font" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFU-Rc-YlT">
+                                                                    <rect key="frame" x="7" y="9" width="71" height="67"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="WFU-Rc-YlT" secondAttribute="bottom" constant="9" id="Bmw-2u-WHz"/>
+                                                            <constraint firstItem="WFU-Rc-YlT" firstAttribute="leading" secondItem="VMO-ak-iEv" secondAttribute="leading" constant="7" id="U7V-7l-gXk"/>
+                                                            <constraint firstItem="WFU-Rc-YlT" firstAttribute="top" secondItem="VMO-ak-iEv" secondAttribute="top" constant="9" id="pfE-hp-1Js"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WFU-Rc-YlT" secondAttribute="trailing" constant="7" id="uq8-fR-pCr"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="lblFont" destination="WFU-Rc-YlT" id="9Ba-52-Kj4"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBe-GH-x2A">
+                                                <rect key="frame" x="263" y="279" width="105" height="85"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recognition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkg-wx-P8m">
+                                                        <rect key="frame" x="0.0" y="1" width="105" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="7FF-aq-Mv4"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LDq-wT-6Iu">
+                                                        <rect key="frame" x="0.0" y="16" width="105" height="70"/>
+                                                    </pickerView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="Pkg-wx-P8m" firstAttribute="leading" secondItem="gBe-GH-x2A" secondAttribute="leading" id="BQi-35-8BV"/>
+                                                    <constraint firstAttribute="width" constant="105" id="IYE-Mr-Otq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Pkg-wx-P8m" secondAttribute="trailing" id="LvI-0L-Wkp"/>
+                                                    <constraint firstItem="Pkg-wx-P8m" firstAttribute="top" secondItem="gBe-GH-x2A" secondAttribute="top" constant="1" id="Rbq-2O-2Ru"/>
+                                                    <constraint firstAttribute="bottom" secondItem="LDq-wT-6Iu" secondAttribute="bottom" constant="-1" id="X3H-jT-JUT"/>
+                                                    <constraint firstItem="LDq-wT-6Iu" firstAttribute="trailing" secondItem="Pkg-wx-P8m" secondAttribute="trailing" id="byq-CN-5EQ"/>
+                                                    <constraint firstItem="LDq-wT-6Iu" firstAttribute="leading" secondItem="Pkg-wx-P8m" secondAttribute="leading" id="eR7-az-Rpy"/>
+                                                    <constraint firstItem="LDq-wT-6Iu" firstAttribute="top" secondItem="Pkg-wx-P8m" secondAttribute="bottom" constant="-6" id="qMr-7L-u15"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Md-gV-VZZ">
+                                                <rect key="frame" x="372" y="279" width="38" height="85"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="5Te-vj-dFA"/>
+                                                    <constraint firstAttribute="height" constant="85" id="GBb-K1-hCb"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="play"/>
+                                                <state key="selected" image="pause"/>
+                                                <connections>
+                                                    <action selector="onPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fW6-fM-Mst"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.95294117649999999" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="gBe-GH-x2A" firstAttribute="leading" secondItem="n4f-Yc-0kk" secondAttribute="trailing" constant="4" id="12f-8Q-cGN"/>
+                                            <constraint firstItem="n4f-Yc-0kk" firstAttribute="top" secondItem="6gL-mb-AFN" secondAttribute="bottom" constant="4" id="2hK-Ro-SSd"/>
+                                            <constraint firstItem="0Md-gV-VZZ" firstAttribute="bottom" secondItem="n4f-Yc-0kk" secondAttribute="bottom" id="6wb-Wm-0Rb"/>
+                                            <constraint firstItem="gBe-GH-x2A" firstAttribute="bottom" secondItem="n4f-Yc-0kk" secondAttribute="bottom" id="8Nn-5Q-13u"/>
+                                            <constraint firstAttribute="trailing" secondItem="yzw-qG-Jt6" secondAttribute="trailing" constant="4" id="C9C-Xs-uBw"/>
+                                            <constraint firstAttribute="bottom" secondItem="n4f-Yc-0kk" secondAttribute="bottom" constant="4" id="EHB-M9-hHT"/>
+                                            <constraint firstItem="n4f-Yc-0kk" firstAttribute="leading" secondItem="CTm-lI-PgB" secondAttribute="leading" constant="4" id="Ga3-TH-ukX"/>
+                                            <constraint firstItem="0Md-gV-VZZ" firstAttribute="leading" secondItem="gBe-GH-x2A" secondAttribute="trailing" constant="4" id="HLO-fW-rbM"/>
+                                            <constraint firstItem="0Md-gV-VZZ" firstAttribute="top" secondItem="n4f-Yc-0kk" secondAttribute="top" id="Jvm-jn-GPt"/>
+                                            <constraint firstItem="6gL-mb-AFN" firstAttribute="leading" secondItem="CTm-lI-PgB" secondAttribute="leading" constant="4" id="Rp8-ZJ-JgA"/>
+                                            <constraint firstItem="yzw-qG-Jt6" firstAttribute="top" secondItem="CTm-lI-PgB" secondAttribute="top" constant="4" id="SVn-co-Q9K"/>
+                                            <constraint firstItem="6gL-mb-AFN" firstAttribute="top" secondItem="CTm-lI-PgB" secondAttribute="top" constant="4" id="WJD-ko-CMp"/>
+                                            <constraint firstItem="gBe-GH-x2A" firstAttribute="top" secondItem="n4f-Yc-0kk" secondAttribute="top" id="al3-Kg-bF5"/>
+                                            <constraint firstAttribute="trailing" secondItem="6gL-mb-AFN" secondAttribute="trailing" constant="4" id="kkF-bz-QcJ"/>
+                                            <constraint firstItem="yzw-qG-Jt6" firstAttribute="leading" secondItem="CTm-lI-PgB" secondAttribute="leading" constant="4" id="ok3-R3-6LL"/>
+                                            <constraint firstItem="n4f-Yc-0kk" firstAttribute="leading" secondItem="yzw-qG-Jt6" secondAttribute="leading" id="okC-ol-BQS"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Md-gV-VZZ" secondAttribute="trailing" constant="4" id="srQ-fR-IAx"/>
+                                            <constraint firstItem="n4f-Yc-0kk" firstAttribute="top" secondItem="yzw-qG-Jt6" secondAttribute="bottom" constant="4" id="y0y-Bw-jUp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pBC-HJ-0DV" firstAttribute="trailing" secondItem="QnF-OU-DBq" secondAttribute="trailing" id="1nY-ue-M7X"/>
+                            <constraint firstItem="4fl-Jp-NWD" firstAttribute="trailing" secondItem="QnF-OU-DBq" secondAttribute="trailing" id="8Lg-fV-UPF"/>
+                            <constraint firstItem="pBC-HJ-0DV" firstAttribute="leading" secondItem="QnF-OU-DBq" secondAttribute="leading" id="AMM-R8-UMC"/>
+                            <constraint firstItem="pBC-HJ-0DV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Azx-U3-RZ5"/>
+                            <constraint firstItem="NJp-CS-FBN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mxy-Ca-0Jj"/>
+                            <constraint firstItem="NJp-CS-FBN" firstAttribute="trailing" secondItem="QnF-OU-DBq" secondAttribute="trailing" id="OwO-9c-G68"/>
+                            <constraint firstItem="pBC-HJ-0DV" firstAttribute="bottom" secondItem="QnF-OU-DBq" secondAttribute="bottom" id="Slu-6G-iYG"/>
+                            <constraint firstItem="NJp-CS-FBN" firstAttribute="bottom" secondItem="QnF-OU-DBq" secondAttribute="bottom" id="biz-xD-kNe"/>
+                            <constraint firstItem="4fl-Jp-NWD" firstAttribute="leading" secondItem="QnF-OU-DBq" secondAttribute="leading" id="gV3-c9-O4D"/>
+                            <constraint firstItem="4fl-Jp-NWD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rw9-Ti-Hu2"/>
+                            <constraint firstItem="NJp-CS-FBN" firstAttribute="leading" secondItem="QnF-OU-DBq" secondAttribute="leading" id="u0Z-qw-ApU"/>
+                            <constraint firstItem="4fl-Jp-NWD" firstAttribute="bottom" secondItem="QnF-OU-DBq" secondAttribute="bottom" id="yRB-m3-63f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QnF-OU-DBq"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnPlay" destination="0Md-gV-VZZ" id="Yr5-rY-l0T"/>
+                        <outlet property="cvFontFamilies" destination="n4f-Yc-0kk" id="Cup-7u-Uce"/>
+                        <outlet property="lblTitle" destination="6gL-mb-AFN" id="Z2v-C3-FLy"/>
+                        <outlet property="pckRecognition" destination="LDq-wT-6Iu" id="8es-wu-rfe"/>
+                        <outlet property="txfDetection" destination="yzw-qG-Jt6" id="QEh-XT-9iD"/>
+                        <outlet property="vwCamera" destination="4fl-Jp-NWD" id="Oq8-Em-Bah"/>
+                        <outlet property="vwCameraContainer" destination="6ic-7u-wzS" id="6gj-jE-HHm"/>
+                        <outlet property="vwDetection" destination="CTm-lI-PgB" id="YBj-eZ-a9g"/>
+                        <outlet property="vwSnapshot" destination="NJp-CS-FBN" id="L6t-hX-Ir1"/>
+                        <outlet property="vwVisibleArea" destination="bBd-Da-EXV" id="vEm-C0-U8m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="136.95652173913044"/>
+        </scene>
+        <!--Launch View Controller-->
+        <scene sceneID="LV9-3w-jUj">
+            <objects>
+                <viewController storyboardIdentifier="LaunchScene" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3iB-kk-mFX" customClass="LaunchViewController" customModule="WhichFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tor-tY-ACH"/>
+                        <viewControllerLayoutGuide type="bottom" id="dM2-HO-qEg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fq7-Jo-FPT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="N0f-7I-q53">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pU4-ZT-E51">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9X-RC-tCv">
+                                        <rect key="frame" x="0.0" y="368" width="414" height="368"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0vY-bC-3Rb">
+                                                <rect key="frame" x="8" y="8" width="398" height="258.66666666666663"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="W">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name="AmericanTypewriter"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="h">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="i">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="c">
+                                                        <attributes>
+                                                            <font key="NSFont" size="41" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="h">
+                                                        <attributes>
+                                                            <font key="NSFont" size="32" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="F">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="o">
+                                                        <attributes>
+                                                            <font key="NSFont" size="27" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="n">
+                                                        <attributes>
+                                                            <font key="NSFont" size="31" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="t">
+                                                        <attributes>
+                                                            <font key="NSFont" size="35" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Text Detection  ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="by Nexor Technology">
+                                                        <attributes>
+                                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="0vY-bC-3Rb" secondAttribute="bottom" constant="101.5" id="Gob-na-sWS"/>
+                                            <constraint firstAttribute="trailing" secondItem="0vY-bC-3Rb" secondAttribute="trailing" constant="8" id="VF7-uP-ibA"/>
+                                            <constraint firstItem="0vY-bC-3Rb" firstAttribute="leading" secondItem="X9X-RC-tCv" secondAttribute="leading" constant="8" id="oPJ-bs-WC4"/>
+                                            <constraint firstItem="0vY-bC-3Rb" firstAttribute="top" secondItem="X9X-RC-tCv" secondAttribute="top" constant="8" id="vcf-Ps-g1x"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="N0f-7I-q53" secondAttribute="trailing" id="D1K-eB-il3"/>
+                            <constraint firstItem="N0f-7I-q53" firstAttribute="leading" secondItem="fq7-Jo-FPT" secondAttribute="leading" id="EeF-y8-jSf"/>
+                            <constraint firstItem="N0f-7I-q53" firstAttribute="top" secondItem="fq7-Jo-FPT" secondAttribute="top" id="Mdj-VM-6ho"/>
+                            <constraint firstItem="dM2-HO-qEg" firstAttribute="top" secondItem="N0f-7I-q53" secondAttribute="bottom" id="qfV-eX-vRx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MTo-O4-9Rz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Trq-4g-0tK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-614" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause" width="25" height="30"/>
+        <image name="play" width="27" height="30"/>
+    </resources>
+</document>
