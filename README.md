@@ -16,6 +16,7 @@ Great iOS11 app demo with [Vision (VNTextObservation)](https://developer.apple.c
 - Download the project
 - Run `pod update`
 - Open **WhichFont.xcworkspace** in **XCode 9**
+- Under the Pods project, tap on the TesseractOCRiOS target and set `Enable Bitcode = NO`
 - Run the project on a **iOS11** device
 
 
