@@ -9,7 +9,6 @@ WhichFont iOS11
 
 [![](https://img.shields.io/badge/Powered%20By-Nexor%20Technology%20%7C%20www.nexor.it-orange.svg?style=flat)](https://www.nexor.it) 
 
-# WhichFont
 Great iOS11 app demo with Vision (VNTextObservation) and Tesseract-OCR-iOS
 
 
