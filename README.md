@@ -39,7 +39,7 @@ src="http://68.media.tumblr.com/3243ca9030c3fa14ca3042344ae3d510/tumblr_inline_n
 
 License
 =================
- WhichFont is distributed under the MITlicense (see LICENSE.md).
+ WhichFont is distributed under the MITlicense (see [LICENSE.md](https://github.com/gali8/WhichFont/blob/master/LICENSE)).
 
 Contributors
 =================
