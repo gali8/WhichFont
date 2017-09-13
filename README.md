@@ -26,6 +26,10 @@ Great iOS11 app demo with [Vision (VNTextObservation)](https://developer.apple.c
 - Look into the camera and enjoy
 
 ![](https://github.com/gali8/WhichFont/blob/master/snapshot.png?raw=true)
+**iPad**
+
+![](https://github.com/gali8/WhichFont/blob/master/snapshot_iphone.png?raw=true)
+**iPhone**
 
 # What's new
 **v. 1.0.1**
