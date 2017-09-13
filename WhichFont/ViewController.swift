@@ -101,7 +101,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         play()
         startTextDetection()
     }
-    
+
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         self.previewLayer?.frame = self.vwCamera.bounds //on load, fix bounds
