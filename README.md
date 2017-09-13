@@ -17,7 +17,7 @@ Great iOS11 app demo with [Vision (VNTextObservation)](https://developer.apple.c
 - Run `pod update`
 - Open **WhichFont.xcworkspace** in **XCode 9**
 - Under the Pods project, tap on the TesseractOCRiOS target and set `Enable Bitcode = NO`
-- Run the project on a **iOS11** device (tested on iPad)
+- Run the project on a **iOS11** device (tested on iPad Air and iPhone 6S)
 
 
 # How to use
@@ -26,6 +26,14 @@ Great iOS11 app demo with [Vision (VNTextObservation)](https://developer.apple.c
 - Look into the camera and enjoy
 
 ![](https://github.com/gali8/WhichFont/blob/master/snapshot.png?raw=true)
+
+# What's new
+**v. 1.0.1**
+
+- Now the app works greatly
+- Fixed tesseract bug
+- Added iPhone support
+
 
 Buy me a beer
 =================

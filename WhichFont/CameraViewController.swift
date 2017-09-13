@@ -14,7 +14,7 @@ import TesseractOCR
 extension ViewController {
     
     func prepareLiveVideo() {
-        session.sessionPreset = AVCaptureSession.Preset.photo
+        session.sessionPreset = AVCaptureSession.Preset.high
         guard let captureDevice = AVCaptureDevice.default(for: AVMediaType.video) else {
             return
         }
@@ -174,7 +174,8 @@ extension ViewController {
             }
             
             let imgv = UIImageView(image: mainImage)
-            let vcontainer = UIView(frame: imgv.bounds)
+            imgv.frame = self.vwCamera.bounds
+            let vcontainer = UIView(frame: self.vwCamera.bounds)
             vcontainer.addSubview(imgv)
             
             let recognition = RecognitionTypes(rawValue: Int(self.pckRecognition.selectedRow(inComponent: 0)))
