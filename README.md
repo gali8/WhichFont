@@ -38,6 +38,9 @@ Great iOS11 app demo with [Vision (VNTextObservation)](https://developer.apple.c
 - Fixed tesseract bug
 - Added iPhone support
 
+# Important!
+This is a demo project so... threads are not used with logic :)
+If you wanna publish an app like this, please keep in mind that you need to use the main thread in a more useful - right - way.   
 
 Buy me a beer
 =================
